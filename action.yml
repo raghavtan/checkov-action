@@ -79,3 +79,4 @@ runs:
   
   env:
     API_KEY_VARIABLE: ${{ inputs.api-key }}
+    DOCKER_CONTAINER_REGISTRY_TOKEN: ${{ secrets.DOCKER_GITHUB_TOKEN }}

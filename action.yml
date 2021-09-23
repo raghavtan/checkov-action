@@ -59,7 +59,7 @@ branding:
   color: 'purple'
 runs:
   using: 'docker'
-  image: 'docker://raghavtan/checkov:latest'
+  image: 'docker://ghcr.io/raghavtan/checkov:latest'
   args:
     - ${{ inputs.directory }}
     - ${{ inputs.check }}
